@@ -4,7 +4,7 @@
   height: 60px;
   border: 1px solid rgba(129, 129, 129, 0.4);
   align-items: center;
-  border-radius: 30px;
+  border-radius: 28px;
 }
 .profile {
   height: 80px;
@@ -45,25 +45,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  text-align: center;
 }
 .quit_btn {
-  font-size: 20px;
-  display: flex;
+  text-align: center;
+  font-size: 22px;
+  display: inline-block;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
-  border-radius: 10px;
+  background: linear-gradient(to right, #000000, #313131);
+  border-radius: 30px;
   height: 30px;
-  width: 120px;
-  cursor: pointer;
+  width: 80px;
   text-decoration: none;
-  color: #262626;
+  color: #dcdcdc;
   font-family: Calibri, sans-serif;
   transition: 0.1s;
-  &.quit_btn:hover {
-    color: #6c6c6c;
-  }
+
 }
 .name {
   display: flex;

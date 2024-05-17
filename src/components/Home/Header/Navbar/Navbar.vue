@@ -21,8 +21,8 @@ const updateNotRegistered = (value) => {
     <SocialIcons/>
     <NavButtons/>
     <div class="reg_test">
-      <PlayerAccount v-if="!notRegistered" :showRegisterButtons="updateNotRegistered" />
-      <RegisterButtons v-else :notRegistered="notRegistered" @updateNotRegistered="updateNotRegistered"/>
+      <PlayerAccount v-if="!notRegistered" :showRegisterButtons="updateNotRegistered(false)" />
+      <RegisterButtons v-else :notRegistered="notRegistered" @updateNotRegistered="updateNotRegistered(false)"/>
     </div>
   </div>
 </template>

@@ -4,8 +4,9 @@
 
 <template>
   <div class="nav_logo">
-    <RouterLink to="/About" class="test"/>
+    <RouterLink to="/">
     <img class="logo" src="../../../../../assets/Home/Header/Navbar/Navbar_Logo.png" alt="">
+    </RouterLink>
   </div>
 </template>
 

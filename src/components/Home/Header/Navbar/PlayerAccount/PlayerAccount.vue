@@ -19,7 +19,7 @@ const showRegisterButtons = () => {
       </div>
       <div class="profile_info">
         <div class="profile_name">
-          Molodec_Official
+          <a class="name" href="">Molodec_Official</a>
         </div>
       </div>
     </div>

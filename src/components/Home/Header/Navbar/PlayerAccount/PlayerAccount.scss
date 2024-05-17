@@ -26,18 +26,15 @@
 }
 .profile_cash {
   font-family: Poppins, sans-serif;
-
 }
 .options {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  height: 80px;
   width: 120px;
-  row-gap: 5px;
   text-decoration: none;
-
 }
 .options_btn {
   text-decoration: none;
@@ -63,4 +60,10 @@
   text-decoration: none;
   color: #262626;
   font-family: Calibri, sans-serif;
+}
+.name {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }

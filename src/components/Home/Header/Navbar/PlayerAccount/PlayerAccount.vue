@@ -1,5 +1,9 @@
 <script setup>
 
+function refreshPage() {
+  window.location.replace('/')
+}
+
 </script>
 
 <template>
@@ -18,7 +22,7 @@
     </div>
     <div class="options">
       <RouterLink class="name" to="/">
-      <a class="quit_btn" href="">
+      <a class="quit_btn" @click="refreshPage" href="">
         Выйти
       </a>
       </RouterLink>

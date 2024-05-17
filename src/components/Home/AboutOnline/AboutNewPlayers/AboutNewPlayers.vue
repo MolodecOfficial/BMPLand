@@ -14,10 +14,10 @@
     </div>
     <div class="text_list">
       <p class="num">
-        4
+        1
       </p>
       <p class="text">
-        Человека работают над сайтом
+        Сервер сейчас онлайн
       </p>
     </div>
     <div class="text_list">

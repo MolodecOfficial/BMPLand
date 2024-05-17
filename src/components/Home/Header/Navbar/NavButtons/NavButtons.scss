@@ -50,8 +50,8 @@
 /* Стили для мобильных устройств (телефоны) */
 @media only screen and (max-width: 600px) {
   .nav_info_btn {
-    font-size: 14px;
-
+    font-size: 4px;
+    display: none;
   }
 }
 
@@ -59,6 +59,7 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .nav_info_btn {
     font-size: 4px;
+    display: none;
   }
   .nav_info_btn_donate {
     font-size: 12px;

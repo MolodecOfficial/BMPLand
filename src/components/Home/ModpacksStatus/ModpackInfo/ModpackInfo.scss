@@ -34,8 +34,6 @@
   align-items: center;
   box-shadow: -45px 50px 0 -5px #000000, 45px 50px 0 -5px #000000;
 }
-
-
 .modpack_name {
   color: white;
   margin-top: 70px;
@@ -44,4 +42,21 @@
 .gloomy_title {
   border-radius: 10px;
   width: 50em;
+}
+@media only screen and (max-width: 600px) {
+  .gloomy_title {
+    width: 20em;
+  }
+  .server {
+    height: 130vh;
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
 }

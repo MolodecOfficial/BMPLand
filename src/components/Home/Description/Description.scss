@@ -8,4 +8,21 @@
   flex-direction: column;
   height: 44em;
 }
+@media only screen and (max-width: 600px) {
+  .description {
+    margin-left: 0;
+    width: 50em;
+    margin-top: 55px;
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
+}
+
 

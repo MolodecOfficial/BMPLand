@@ -22,6 +22,11 @@ function regBtn() {
       Начать играть!
     </button>
   </div>
+  <div class="nav_mob-menu">
+    <button class="mob-menu_btn">
+      Меню
+    </button>
+  </div>
 </template>
 
 <style src="../../../Header/Navbar/RegisterButtons/RegisterButtons.scss">

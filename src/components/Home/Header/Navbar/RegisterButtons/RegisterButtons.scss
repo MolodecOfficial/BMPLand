@@ -1,0 +1,41 @@
+.nav_register {
+  display: flex;
+  gap: 40px;
+}
+.register_btn {
+  color: white;
+  text-decoration: transparent;
+  gap: 30px;
+  height: 50px;
+  border: none;
+  transition: var(--main-elem-transition);
+  font-family: Poppins, sans-serif;
+  background-color: rgba(136, 136, 136, 0.45);
+  filter: drop-shadow(0 0 10px #88888872);
+  font-size: 25px;
+  border-radius: 50px;
+  width: 120px;
+  &.register_btn:hover {
+    scale: var(--main-elem-scale);
+    filter: drop-shadow(1px 0 10px rgba(98, 98, 98, 0.74));
+  }
+}
+.download_btn {
+  color: white;
+  text-decoration: transparent;
+  gap: 30px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  transition: var(--main-elem-transition);
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(to right, #ffce08 0%, #e73a3a 100%);
+  border-radius: 50px;
+  filter: drop-shadow(0 0 10px #e86e1f);
+  width: 200px;
+  &.download_btn:hover {
+    scale: var(--main-elem-scale);
+    filter: drop-shadow(0 0 10px #e86e1f);
+    background: linear-gradient(to right, #ffce08 0%, #e73a3a 100%);
+  }
+}

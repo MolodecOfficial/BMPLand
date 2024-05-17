@@ -1,0 +1,17 @@
+.vk_plate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  border: 1px solid rgba(180, 171, 171, 0.7);
+  border-radius: 60px;
+  width: 350px;
+  transition: var(--main-elem-transition);
+  &.vk_plate:hover {
+    scale: var(--main-elem-scale);
+  }
+}
+.vk_logo {
+  height: 200px;
+  width: 200px;
+}

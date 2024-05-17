@@ -1,0 +1,27 @@
+.server_list {
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.text_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.num {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bolder;
+  background: linear-gradient(to right, #1cdbec, #cb2cef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+}
+.text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  color: #888888;
+}

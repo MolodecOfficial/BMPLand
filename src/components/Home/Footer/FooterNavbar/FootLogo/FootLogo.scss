@@ -1,0 +1,7 @@
+.foot_logo {
+  width: 100px;
+  transition: var(--main-elem-transition);
+  &.foot_logo:hover {
+    filter: grayscale(1);
+  }
+}

@@ -1,0 +1,17 @@
+.download_page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info_plate {
+  background-color: black;
+  height: 90vh;
+  color: whitesmoke;
+  width: 90%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

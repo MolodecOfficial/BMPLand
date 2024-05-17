@@ -1,0 +1,16 @@
+.foot_nav_social {
+  display: flex;
+  gap: 10px;
+}
+.foot_social_icons {
+  width: 40px;
+  height: 40px;
+  transition: var(--main-elem-transition);
+  color: #262626;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  &.foot_social_icons:hover {
+    scale: 1.5;
+
+  }
+}

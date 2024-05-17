@@ -1,0 +1,57 @@
+.other_plates {
+  height: 350px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.mac_plate {
+  border: 2px solid #626262;
+  border-radius: 30px;
+  height: 165px;
+  display: flex;
+  align-items: center;
+  background: black;
+  text-decoration: none;
+  justify-content: space-evenly;
+  transition: var(--main-elem-transition);
+  &.mac_plate:hover {
+    scale: var(--main-elem-scale);
+  }
+}
+.mac_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mac_text {
+  margin-left: 40px;
+  color: #d3d3d3;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+.linux_plate {
+  row-gap: 20px;
+  border-radius: 30px;
+  border: 2px solid #2a2a2a;
+  height: 165px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to top, #000000, #232222);
+  text-decoration: none;
+  justify-content: space-evenly;
+  transition: var(--main-elem-transition);
+  &.linux_plate:hover {
+    scale: var(--main-elem-scale);
+
+  }
+}
+.linux_text {
+  margin-left: 40px;
+  color: #d3d3d3;
+  font-size: 40px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}

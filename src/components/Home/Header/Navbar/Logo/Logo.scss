@@ -1,0 +1,19 @@
+.logo {
+  width: 100px;
+  transition: var(--main-elem-transition);
+  animation: anime 2s infinite;
+  &.logo:hover {
+    filter: grayscale(0);
+  }
+}
+@keyframes anime {
+  0% {
+    filter: grayscale(1);
+  }
+  50% {
+    filter: grayscale(0);
+  }
+  100% {
+    filter: grayscale(1);
+  }
+}

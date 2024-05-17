@@ -1,0 +1,319 @@
+.anim_left {
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+.micro {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.6;
+  width: 150px;
+  animation: up-to-down-micro 15s infinite;
+}
+@keyframes up-to-down-micro {
+  0% {
+    margin-top: 0;
+    margin-left: 50px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 80px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-left: 30px;
+    rotate: -320deg;
+  }
+  75% {
+    margin-left: 80px;
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 50px;
+    rotate: 460deg;
+  }
+}
+.key {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.6;
+  width: 150px;
+  animation: up-to-down-key 13s infinite;
+}
+@keyframes up-to-down-key {
+  0% {
+    margin-top: 45em;
+    margin-left: 200px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 200px;
+  }
+  50% {
+    margin-top: 0;
+    margin-left: 200px;
+    rotate: -320deg;
+  }
+  75% {
+    margin-left: 200px;
+  }
+  100% {
+    margin-top: 45em;
+    margin-left: 200px;
+    rotate: 460deg;
+  }
+}
+.controller {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.6;
+  width: 150px;
+  animation: up-to-down-controller 12s infinite;
+}
+@keyframes up-to-down-controller {
+  0% {
+    margin-top: 0;
+    margin-left: 150px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 150px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-left: 175px;
+    rotate: -320deg;
+  }
+  75% {
+    margin-left: 150px;
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 150px;
+    rotate: 460deg;
+  }
+}
+.panel {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.6;
+  width: 150px;
+  animation: up-to-down-panel 12s infinite;
+}
+@keyframes up-to-down-panel {
+  0% {
+    margin-top: 0;
+    margin-left: 320px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 275px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-left: 275px;
+    rotate: -120deg;
+  }
+  75% {
+    margin-left: 275px;
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 320px;
+    rotate: 100deg;
+  }
+}
+.anim_right {
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: stretch;
+  flex-wrap: wrap-reverse;
+  position: absolute;
+  float: right;
+}
+
+.create {
+  z-index: 0;
+  position: absolute;
+  opacity: 0.6;
+  width: 150px;
+  animation: up-to-down-create 13s infinite;
+}
+@keyframes up-to-down-create {
+    0% {
+      margin-top: 0;
+      margin-left: 50px;
+      rotate: 100deg;
+    }
+    25% {
+      margin-left: 80px;
+    }
+    50% {
+      margin-top: 45em;
+      margin-left: 30px;
+      rotate: -320deg;
+    }
+    75% {
+      margin-left: 80px;
+    }
+    100% {
+      margin-top: 0;
+      margin-left: 50px;
+      rotate: 460deg;
+    }
+}
+
+
+@keyframes up-to-down-blood_altar {
+  0% {
+    margin-top: 0;
+    margin-right: 40px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 50px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-right: 80px;
+    rotate: -120deg;
+  }
+  75% {
+    margin-right: 30px;
+  }
+  100% {
+    margin-top: 0;
+    margin-right: 40px;
+    rotate: 100deg;
+  }
+}
+.blood_altar {
+  z-index: 0;
+  opacity: 0.6;
+  width: 150px;
+  position: absolute;
+  animation: up-to-down-blood_altar 10s infinite;
+}
+@keyframes up-to-down-thaumometer {
+  0% {
+    margin-top: 0;
+    margin-right: 75px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 50px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-left: -120px;
+    rotate: -120deg;
+  }
+  75% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-top: 0;
+    margin-right: 75px;
+    rotate: 100deg;
+  }
+}
+.thaumometer {
+  z-index: 0;
+  opacity: 0.6;
+  width: 150px;
+  position: absolute;
+  animation: up-to-down-thaumometer 14s infinite;
+}
+@keyframes up-to-down-botaniakey {
+  0% {
+    margin-top: 0;
+    margin-right: 125px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 50px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-right: 150px;
+    rotate: -120deg;
+  }
+  75% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-top: 0;
+    margin-right: 120px;
+    rotate: 100deg;
+  }
+}
+.botaniakey {
+   z-index: 0;
+   opacity: 0.6;
+   width: 150px;
+   position: absolute;
+   animation: up-to-down-botaniakey 12s infinite;
+}
+@keyframes up-to-down-arsnouveau {
+  0% {
+    margin-top: 0;
+    margin-right: 125px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 50px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-right: 150px;
+    rotate: -120deg;
+  }
+  75% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-top: 0;
+    margin-right: 120px;
+    rotate: 100deg;
+  }
+}
+.arsnouveau {
+  z-index: 0;
+  opacity: 0.6;
+  width: 150px;
+  position: absolute;
+  animation: up-to-down-arsnouveau 15s infinite;
+}
+@keyframes up-to-down-forbidden {
+  0% {
+    margin-top: 0;
+    margin-right: 40px;
+    rotate: 100deg;
+  }
+  25% {
+    margin-left: 50px;
+  }
+  50% {
+    margin-top: 45em;
+    margin-right: 80px;
+    rotate: -120deg;
+  }
+  75% {
+    margin-right: 30px;
+  }
+  100% {
+    margin-top: 0;
+    margin-right: 40px;
+    rotate: 100deg;
+  }
+}
+.forbidden {
+  z-index: 0;
+  opacity: 0.6;
+  width: 150px;
+  position: absolute;
+  animation: up-to-down-forbidden 13s infinite;
+}

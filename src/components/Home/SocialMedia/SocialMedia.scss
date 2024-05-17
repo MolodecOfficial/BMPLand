@@ -1,0 +1,25 @@
+.social_media {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.social_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+.social_text {
+  font-size: 60px;
+  font-family: "Samsung Sans", monospace;
+  font-weight: bolder;
+}
+.social_plates {
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 100px;
+  height: 60vh;
+
+}

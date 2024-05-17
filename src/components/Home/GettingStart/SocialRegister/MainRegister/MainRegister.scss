@@ -1,0 +1,47 @@
+.main_reg {
+  display: flex;
+  gap: 25px;
+}
+.vk {
+  height: 50px;
+  width: 270px;
+  background-color: #376cde;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  transition: var(--main-elem-transition);
+  &.vk:hover {
+    scale: var(--main-elem-scale);
+  }
+}
+
+.mail {
+  height: 50px;
+  width: 270px;
+  background-color: #3f434f;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+  transition: var(--main-elem-transition);
+  &.mail:hover {
+    scale: var(--main-elem-scale);
+  }
+}
+
+.vk_icon {
+  width: 40px;
+}

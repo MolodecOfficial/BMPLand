@@ -1,0 +1,42 @@
+.foot_nav_register {
+  display: flex;
+  gap: 40px;
+}
+.foot_register_btn {
+  color: white;
+  text-decoration: transparent;
+  gap: 30px;
+  height: 50px;
+  border: none;
+  transition: var(--main-elem-transition);
+  font-family: Poppins, sans-serif;
+  background-image: linear-gradient(to right, #FF8008 0%, #FFC837 0%, #FF8008 100%);
+  font-size: 25px;
+  border-radius: 50px;
+  filter: drop-shadow(0 0 10px #e86e1f);
+  width: 120px;
+  &.foot_register_btn:hover {
+    scale: var(--main-elem-scale);
+    filter: drop-shadow(0 0 10px #e86e1f);
+    background: linear-gradient(to right, #ffc83c, #ff7b00);
+  }
+}
+.foot_download_btn {
+  color: white;
+  text-decoration: transparent;
+  gap: 30px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  transition: var(--main-elem-transition);
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(to right, #FF8008 0%, #e73a3a 100%);
+  border-radius: 50px;
+  filter: drop-shadow(0 0 10px #e86e1f);
+  width: 200px;
+  &.foot_download_btn:hover {
+    scale: var(--main-elem-scale);
+    filter: drop-shadow(0 0 10px #e86e1f);
+    background: linear-gradient(to right, #FF8008 0%, #e73a3a 100%);
+  }
+}

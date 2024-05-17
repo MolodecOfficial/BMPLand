@@ -1,0 +1,24 @@
+.register_icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.reg_icon {
+  border: 1px solid rgba(190, 185, 185, 0.61);
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  transition: 0.1s;
+  &.reg_icon:hover {
+    scale: var(--main-elem-scale);
+    border: 1px solid white;
+  }
+}
+.reg_img {
+  width: 60px;
+  height: 60px;
+}

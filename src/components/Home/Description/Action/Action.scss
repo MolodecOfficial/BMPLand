@@ -1,12 +1,11 @@
 .description_action {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   font-family: "Noto Sans", sans-serif;
-  justify-content: center;
-  align-items: center;
   gap: 40px;
+  margin: 0;
 }
 #click_me {
-  margin-left: 260px;
   display: flex;
   justify-content: center;
   align-items: center;

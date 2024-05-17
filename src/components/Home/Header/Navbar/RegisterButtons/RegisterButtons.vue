@@ -13,7 +13,7 @@ function regBtn() {
 
 <template>
   <div class="nav_register">
-    <button class="register_btn" @click.prevent="regBtn" >
+    <button class="register_btn" @click.prevent="regBtn">
       Войти
     </button>
   </div>

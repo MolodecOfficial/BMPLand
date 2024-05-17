@@ -60,10 +60,18 @@
   text-decoration: none;
   color: #262626;
   font-family: Calibri, sans-serif;
+  transition: 0.1s;
+  &.quit_btn:hover {
+    color: #6c6c6c;
+  }
 }
 .name {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: black;
+  transition: 0.1s;
+  &.name:hover {
+    color: #6c6c6c;
+  }
 }

@@ -14,10 +14,10 @@
     </div>
     <div class="text_list">
       <p class="num">
-        3
+        4
       </p>
       <p class="text">
-        Максима работают на BarMaxx'a
+        Человека работают над сайтом
       </p>
     </div>
     <div class="text_list">

@@ -1,15 +1,23 @@
 .description_main_text {
-  margin-left: 260px;
-  width: 80%;
+  width: 100%;
+}
+.title {
   font-family: "Noto Sans", sans-serif;
+  width: 70%;
   font-size: 50px;
-  color: rgba(255, 153, 0, 0.56);
-
+  background: linear-gradient(to right, #0018b7, #ff1500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bolder;
 }
 .title_after {
-  width: 350px;
+  font-family: "Noto Sans", sans-serif;
+  background: linear-gradient(to right, #0018b7, #ff1500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+  width: 550px;
   margin: 30px 0;
   font-size: 30px;
-  color: rgba(255, 166, 0, 0.59);
+  //color: rgba(255, 166, 0, 0.59);
 }

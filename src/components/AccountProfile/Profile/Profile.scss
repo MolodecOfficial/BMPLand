@@ -1,0 +1,32 @@
+.profile-main {
+  display: flex;
+  justify-content: center;
+}
+.profile-container {
+  justify-content: center;
+  background: black;
+  border-radius: 70px;
+  display: flex;
+  width: 80%;
+  height: 150vh;
+}
+.profile-header {
+  margin-top: 100px;
+}
+.greetings {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 50px;
+  color: #888888;
+  font-family: Poppins, sans-serif;
+}
+.greetings-img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}

@@ -2,6 +2,7 @@
   text-decoration: none;
   transition: 0.2s;
   color: #888888;
+  font-weight: bold;
   font-family: Poppins, sans-serif;
   &.nav_info_btn:hover {
     scale: var(--main-elem-scale);
@@ -10,7 +11,7 @@
 .nav_info_btn_donate {
   color: #ffffff;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: lighter;
   background: linear-gradient(to right, rgb(255, 185, 8) 0%, rgba(231, 58, 58, 0.92) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -29,6 +30,7 @@
 
 }
 @keyframes animeee {
+
   0% {
     font-size: 20px;
   }
@@ -44,4 +46,54 @@
   100% {
     font-size: 20px;
   }
+}
+/* Стили для мобильных устройств (телефоны) */
+@media only screen and (max-width: 600px) {
+  .nav_info_btn {
+    font-size: 14px;
+
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .nav_info_btn {
+    font-size: 4px;
+  }
+  .nav_info_btn_donate {
+    font-size: 12px;
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .nav_info_btn {
+    font-size: 12px;
+  }
+  .nav_info_btn_donate {
+    font-size: 12px;
+    width: 60px;
+  }
+  @keyframes animeee {
+    0% {
+      font-size: 14px;
+    }
+    25% {
+      font-size: 18px;
+    }
+    50% {
+      font-size: 14px;
+    }
+    75% {
+      font-size: 18px;
+    }
+    100% {
+      font-size: 14px;
+    }
+  }
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+  /* Ваши стили для ноутбуков и более крупных мониторов */
 }

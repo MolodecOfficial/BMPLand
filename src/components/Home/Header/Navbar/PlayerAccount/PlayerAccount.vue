@@ -1,14 +1,5 @@
 <script setup>
 
-const props = defineProps({
-  regBtn: Function,
-});
-
-const emit = defineEmits(['updateNotRegistered']);
-
-const showRegisterButtons = () => {
-  emit('updateNotRegistered', true);
-};
 </script>
 
 <template>
@@ -19,14 +10,18 @@ const showRegisterButtons = () => {
       </div>
       <div class="profile_info">
         <div class="profile_name">
-          <a class="name" href="">Molodec_Official</a>
+          <RouterLink class="name" to="/AccountProfile">
+          <a class="name">Molodec_Official</a>
+          </RouterLink>
         </div>
       </div>
     </div>
     <div class="options">
-      <a class="quit_btn" href="" @click="showRegisterButtons">
+      <RouterLink class="name" to="/">
+      <a class="quit_btn" href="">
         Выйти
       </a>
+      </RouterLink>
     </div>
   </div>
 </template>

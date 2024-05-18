@@ -11,6 +11,23 @@
   -webkit-text-fill-color: transparent;
   &.foot_social_icons:hover {
     scale: 1.5;
-
   }
+}
+@media only screen and (min-width: 120px) and (max-width: 600px) {
+  .foot_social_icons {
+    width: 25px;
+    height: 25px;
+  }
+  .foot_nav_social {
+    gap: 6px;
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
 }

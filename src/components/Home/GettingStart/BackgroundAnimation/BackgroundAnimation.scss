@@ -317,3 +317,18 @@
   position: absolute;
   animation: up-to-down-forbidden 13s infinite;
 }
+@media only screen and (min-width: 120px) and (max-width: 600px) {
+  .micro, .key, .controller, .panel, .create, .blood_altar, .thaumometer, .botaniakey, .arsnouveau, .forbidden{
+    width: 40px;
+  }
+
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
+}

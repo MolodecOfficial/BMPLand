@@ -1,6 +1,7 @@
 .main_reg {
   display: flex;
   gap: 25px;
+
 }
 .vk {
   height: 50px;
@@ -10,7 +11,7 @@
   border: none;
   border-radius: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 8px;
   font-weight: bolder;
@@ -44,4 +45,33 @@
 
 .vk_icon {
   width: 40px;
+}
+@media only screen and (min-width: 120px) and (max-width: 600px) {
+  .main_reg {
+    gap: 10px;
+  }
+  .vk {
+    width: 165px;
+    font-size: 10px;
+    justify-content: space-evenly;
+    height: 40px;
+  }
+  .vk_icon {
+    width: 20px;
+  }
+  .mail {
+    width: 165px;
+    font-size: 10px;
+    justify-content: space-evenly;
+    height: 40px;
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
 }

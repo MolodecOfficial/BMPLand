@@ -48,8 +48,11 @@
     width: 20em;
   }
   .server {
-    height: 140vh;
+    height: 160vh;
+    width: 100vw;
+    box-shadow: -5px 60px 0 5px #000000, 5px 150px 0 -15px #000000;
   }
+
 }
 
 /* Стили для планшетов и небольших мониторов */

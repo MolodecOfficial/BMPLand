@@ -40,3 +40,38 @@
     background: linear-gradient(to right, #FF8008 0%, #e73a3a 100%);
   }
 }
+.foot_mob-menu_btn {
+  display: flex;
+  height: 30px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family: Monospaced, sans-serif;
+}
+@media only screen and (min-width: 120px) and (max-width: 600px) {
+  .foot_nav_register {
+    gap: 10px;
+  }
+  .foot_register_btn, .foot_download_btn {
+    display: none;
+  }
+  .foot_mob-menu_btn {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Poppins, sans-serif;
+    margin-right: 20px;
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
+}

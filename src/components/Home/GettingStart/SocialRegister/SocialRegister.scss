@@ -16,3 +16,13 @@
   font-family: Poppins, sans-serif;
   gap: 10px;
 }
+@media only screen and (min-width: 120px) and (max-width: 600px) {
+  .social_reg {
+
+    width: 100vw;
+  }
+  .or {
+    width: 100vw;
+
+  }
+}

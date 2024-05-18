@@ -73,14 +73,15 @@
     opacity: 0;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 120px) and (max-width: 600px) {
   .description_action {
+    display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
   #click_me {
     height: 40px;
-    width: 160px;
+    width: 120px;
     font-size: 13px;
     margin-left: 40px;
   }

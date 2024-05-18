@@ -8,11 +8,14 @@
   flex-direction: column;
   height: 44em;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (min-width: 120px) and (max-width: 600px) {
   .description {
+
     margin-left: 0;
-    width: 50em;
-    margin-top: 55px;
+    width: 22.5em;
+    height: 36em;
+    margin-top: 35px;
   }
 }
 

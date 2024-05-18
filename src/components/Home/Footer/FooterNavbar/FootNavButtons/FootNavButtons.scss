@@ -45,3 +45,17 @@
     font-size: 20px;
   }
 }
+@media only screen and (min-width: 120px) and (max-width: 600px) {
+  .foot_nav_info_btn, .foot_nav_info_btn_donate {
+    display: none;
+  }
+}
+
+/* Стили для планшетов и небольших мониторов */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Стили для ноутбуков и более крупных мониторов */
+@media only screen and (min-width: 1025px) {
+
+}

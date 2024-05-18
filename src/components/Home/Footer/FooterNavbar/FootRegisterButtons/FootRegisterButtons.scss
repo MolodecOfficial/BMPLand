@@ -41,7 +41,7 @@
   }
 }
 .foot_mob-menu_btn {
-  display: flex;
+  display: none;
   height: 30px;
   width: 60px;
   justify-content: center;
@@ -51,6 +51,7 @@
   border: 1px solid black;
   border-radius: 20px;
   font-family: Monospaced, sans-serif;
+
 }
 @media only screen and (min-width: 120px) and (max-width: 600px) {
   .foot_nav_register {

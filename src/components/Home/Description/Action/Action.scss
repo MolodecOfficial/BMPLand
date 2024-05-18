@@ -78,12 +78,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    width: 100vw;
+    justify-content: center;
   }
   #click_me {
     height: 40px;
     width: 120px;
     font-size: 13px;
-    margin-left: 40px;
+
   }
   .online {
     height: 30px;

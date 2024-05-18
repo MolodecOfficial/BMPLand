@@ -23,17 +23,27 @@
 }
 
 @media only screen and (min-width: 120px) and (max-width: 600px) {
+  .description_main_text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
   .title {
     width: 90%;
     font-size: 15px;
-    margin-left: 40px;
+
     margin-top: 30px;
+    text-align: center;
+
   }
   .title_after {
+    text-align: center;
     font-size: 15px;
     width: 90%;
     margin-top: 15px;
-    margin-left: 40px;
+
   }
 }
 

@@ -30,7 +30,12 @@ import Header from "./Header/Header.vue";
     width: 100vw;
     overflow-x: hidden;
   }
-
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .home {
+    width: 100vw;
+    overflow-x: hidden;
+  }
 }
 
 </style>

@@ -7,7 +7,7 @@
     <img class="vk_logo" src="../../../../../src/assets/Home/SocialMedia/icons/icon_vk.png">
     <div class="vk_header">
       <p>
-        Заходи к нам в VK
+        Заходи к нам в VKontakte
       </p>
     </div>
   </div>

@@ -24,9 +24,6 @@
 }
 
 @media only screen and (min-width: 120px) and (max-width: 600px) {
-  .social_media {
-
-  }
   .social_text {
     font-size: 20px;
   }
@@ -53,6 +50,32 @@
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .social_media {
+    margin-top: 10px;
+  }
+  .social_text {
+    font-size: 40px;
+  }
+  .social_plates {
+    margin-top: 30px;
+    gap: 10px;
+    height: 60vh;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  .youtube_plate, .vk_plate, .telegram_plate, .discord_plate {
+    width: 150px;
+    height: 40vh;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .youtube_logo, .vk_logo, .telegram_logo, .discord_logo {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

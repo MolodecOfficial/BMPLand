@@ -55,6 +55,15 @@
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .getting_start {
+    height: 180vh;
+  }
+  .reg_header {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    gap: 22px;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

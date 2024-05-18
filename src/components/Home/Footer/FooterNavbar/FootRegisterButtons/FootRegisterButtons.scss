@@ -69,6 +69,20 @@
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .foot_nav_register {
+    gap: 10px;
+  }
+  .foot_register_btn, .foot_download_btn {
+    display: none;
+  }
+  .foot_mob-menu_btn {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Poppins, sans-serif;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

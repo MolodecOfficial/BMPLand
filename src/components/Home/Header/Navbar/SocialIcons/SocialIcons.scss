@@ -27,6 +27,13 @@
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .nav_social {
+    gap: 6px;
+  }
+  .social_icons {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

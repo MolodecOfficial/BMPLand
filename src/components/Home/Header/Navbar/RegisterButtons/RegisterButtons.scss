@@ -57,6 +57,7 @@ button {
   font-family: Monospaced, sans-serif;
 }
 
+
 @media only screen and (max-width: 600px) {
   .nav_register {
     display: none;
@@ -69,13 +70,28 @@ button {
   }
   .mob-menu_btn {
     margin-right: 20px;
+
   }
 }
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .mob-menu_btn {
+  .nav_register {
+    display: flex;
+  }
+  .nav_register {
     display: none;
+  }
+  .register_btn {
+    display: none;
+  }
+  .download_btn {
+    display: none;
+  }
+  .mob-menu_btn {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
   }
 }
 

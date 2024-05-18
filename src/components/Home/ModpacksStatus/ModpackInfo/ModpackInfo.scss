@@ -38,7 +38,6 @@
   color: white;
   margin-top: 70px;
 }
-
 .gloomy_title {
   border-radius: 10px;
   width: 50em;
@@ -48,7 +47,7 @@
     width: 20em;
   }
   .server {
-    height: 160vh;
+    height: 150vh;
     width: 100vw;
     box-shadow: -5px 60px 0 5px #000000, 5px 150px 0 -15px #000000;
   }
@@ -57,6 +56,14 @@
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .gloomy_title {
+    width: 40em;
+  }
+  .server {
+    height: 160vh;
+    width: 100vw;
+    box-shadow: -5px 60px 0 5px #000000, 5px 150px 0 -15px #000000;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

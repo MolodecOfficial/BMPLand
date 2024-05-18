@@ -33,22 +33,38 @@
   .title {
     width: 90%;
     font-size: 15px;
-
     margin-top: 30px;
     text-align: center;
-
   }
   .title_after {
     text-align: center;
     font-size: 15px;
     width: 90%;
     margin-top: 15px;
-
   }
 }
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .description_main_text {
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .title {
+    width: 40%;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .title_after {
+    margin-left: 30px;
+    font-size: 16px;
+    width: 40%;
+    margin-top: 15px;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

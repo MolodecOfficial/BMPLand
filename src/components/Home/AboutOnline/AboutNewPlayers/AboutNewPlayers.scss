@@ -51,6 +51,23 @@
 
 /* Стили для планшетов и небольших мониторов */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .server_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  .text_list {
+    display: flex;
+  }
+  .num {
+    font-size: 22px;
+  }
+  .text {
+    font-size: 15px;
+    height: 40px;
+  }
 }
 
 /* Стили для ноутбуков и более крупных мониторов */

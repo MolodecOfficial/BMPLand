@@ -27,7 +27,6 @@ import Header from "./Header/Header.vue";
 <style scoped>
 @media only screen and (min-width: 120px) and (max-width: 600px) {
   .home {
-    border: 1px solid red;
     width: 100vw;
     overflow-x: hidden;
   }

@@ -41,7 +41,7 @@
   }
 }
 .foot_mob-menu_btn {
-  display: none;
+  display: flex;
   height: 30px;
   width: 60px;
   justify-content: center;
@@ -88,5 +88,7 @@
 
 /* Стили для ноутбуков и более крупных мониторов */
 @media only screen and (min-width: 1025px) {
-
+  .foot_mob-menu_btn {
+    display: none;
+  }
 }

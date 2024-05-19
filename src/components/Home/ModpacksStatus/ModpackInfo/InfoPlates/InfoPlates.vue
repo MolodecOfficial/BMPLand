@@ -11,20 +11,20 @@
     </div>
     <div class="plate_info">
       <article class="plate">
-        <img class="plate_avatar" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/Molodec_Official.jpg" alt="">
-        <p class="plate_description"> Frontend Developer </p>
+        <img class="plate_avatar_tech" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/img.png" alt="">
+        <p class="plate_description"> Начните играть с Вашими любимыми технологиями! </p>
       </article>
       <article class="plate">
-        <img class="plate_avatar" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/BarMaxx.jpg" alt="">
-        <p class="plate_description"> Tech Lead </p>
+        <img class="plate_avatar_magic" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/img2.png" alt="">
+        <p class="plate_description"> Стройте конструкции любых вариантов! </p>
       </article>
       <article class="plate">
-        <img class="plate_avatar" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/Amiri.jpg" alt="">
-        <p class="plate_description"> Backend Developer </p>
+        <img class="plate_avatar_mech" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/img3.png" alt="">
+        <p class="plate_description"> Оптимизируйте Ваше прохождение! </p>
       </article>
       <article class="plate">
-        <img class="plate_avatar" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/HollowHorizon.jpg" alt="">
-        <p class="plate_description"> Full-Stack Developer </p>
+        <img class="plate_avatar_mob" src="../../../../../assets/Home/ModpacksStatus/ModpackInfo/InfoPlates/Pictures/img4.png" alt="">
+        <p class="plate_description"> Становитесь сильнее! </p>
       </article>
     </div>
 

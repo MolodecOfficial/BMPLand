@@ -1,22 +1,31 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from "../components/Home/Home.vue";
-import About from "../components/About/About.vue";
-import OurServers from "../components/OurServers/OurServers.vue";
-import Questions from "../components/Questions/Questions.vue";
-import Donate from "../components/Donate/Donate.vue";
-import AccountProfile from "../components/AccountProfile/AccountProfile.vue";
-
-
-const routes = [
- { path: '/', component: Home },
- { path: '/About', component: About },
- { path: '/OurServers', component: OurServers },
- { path: '/Questions', component: Questions },
- { path: '/Donate', component: Donate },
- { path: '/AccountProfile', component: AccountProfile },
-]
 
 export const router = createRouter({
  history: createWebHistory(),
- routes,
+ routes: [{
+  name: 'home',
+  path: '/',
+  component: () =>  import("../components/Home/Home.vue")
+  }, {
+  name: 'about',
+  path: '/About',
+  component: () => import("../components/About/About.vue")
+  }, {
+  name: 'ourServers',
+  path: '/OurServers',
+  component: () => import("../components/OurServers/OurServers.vue")
+ }, {
+  name: 'questions',
+  path: '/Questions',
+  component: () => import("../components/Questions/Questions.vue")
+ }, {
+  name: 'donate',
+  path: '/Donate',
+  component: () => import("../components/Donate/Donate.vue")
+ }, {
+  name: 'accountProfile',
+  path: '/AccountProfile',
+  component: () => import("../components/AccountProfile/AccountProfile.vue")
+ }
+  ],
 })

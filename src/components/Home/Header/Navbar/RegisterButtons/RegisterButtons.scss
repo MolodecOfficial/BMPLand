@@ -6,6 +6,9 @@ button {
   display: flex;
   gap: 40px;
 }
+
+
+
 .register_btn {
   color: white;
   text-decoration: transparent;
@@ -14,14 +17,13 @@ button {
   border: none;
   transition: var(--main-elem-transition);
   font-family: Poppins, sans-serif;
-  background-color: rgba(136, 136, 136, 0.45);
-  filter: drop-shadow(0 0 10px #88888872);
+  background: linear-gradient(to right, #c9c9c9, #888888);
+  filter: drop-shadow(0 0 10px #888888);
   font-size: 25px;
   border-radius: 50px;
   width: 120px;
   &.register_btn:hover {
     scale: var(--main-elem-scale);
-    filter: drop-shadow(1px 0 10px rgba(98, 98, 98, 0.74));
   }
 }
 

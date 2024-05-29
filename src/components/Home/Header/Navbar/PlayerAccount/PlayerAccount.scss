@@ -1,6 +1,6 @@
 .profile_plate {
   display: flex;
-  width: 360px;
+  width: 320px;
   height: 60px;
   border: 1px solid rgba(129, 129, 129, 0.4);
   align-items: center;
@@ -8,7 +8,7 @@
 }
 .profile {
   height: 80px;
-  width: 270px;
+  width: 275px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -23,6 +23,7 @@
 }
 .profile_name {
   font-family: Poppins, sans-serif;
+
 }
 .profile_cash {
   font-family: Poppins, sans-serif;
